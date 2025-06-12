@@ -44,7 +44,7 @@ private struct DemoButton: View {
 // MARK: - Main Content View
 
 /// The main content view demonstrating the gelatin effect.
-/// 
+///
 /// This view presents a draggable button that showcases the elastic, stretchy animation
 /// behavior. The button can be dragged around and will stretch like gelatin, then
 /// bounce back to its original position when released.
@@ -58,7 +58,7 @@ struct ContentView: View {
     @State private var releaseAnimationDuration: Double = GelatinConfiguration.releaseAnimationDuration
     @State private var releaseBounceFactor: Double = GelatinConfiguration.releaseBounceFactor
     @State private var pressedScaleFactor: CGFloat = GelatinConfiguration.pressedScaleFactor
-    
+
     var body: some View {
         VStack(spacing: 40) {
             // Title section
@@ -67,15 +67,15 @@ struct ContentView: View {
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .foregroundStyle(.primary)
-                
+
                 Text("Drag the button below to see the elastic gelatin effect")
                     .font(.body)
                     .foregroundStyle(.secondary)
                     .multilineTextAlignment(.center)
             }
-            
+
             Spacer()
-            
+
             // Demo button with gelatin effect
             DemoButton()
                 .gelatinEffect(
@@ -88,9 +88,9 @@ struct ContentView: View {
                     releaseBounceFactor: releaseBounceFactor,
                     pressedScaleFactor: pressedScaleFactor
                 )
-            
+
             Spacer()
-            
+
             // Configuration Controls
             createConfigurationControls()
         }
@@ -98,7 +98,7 @@ struct ContentView: View {
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(.background)
     }
-    
+
     /// Resets all configuration parameters to their default values
     private func resetToDefaults() {
         withAnimation(.smooth(duration: 0.3)) {
@@ -112,7 +112,7 @@ struct ContentView: View {
             pressedScaleFactor = GelatinConfiguration.pressedScaleFactor
         }
     }
-    
+
     /// Creates the configuration controls section with sliders for real-time parameter adjustment
     /// - Returns: A view containing all the configuration sliders
     @ViewBuilder
@@ -122,9 +122,9 @@ struct ContentView: View {
                 Text("Configuration Controls")
                     .font(.headline)
                     .foregroundStyle(.primary)
-                
+
                 Spacer()
-                
+
                 Button(action: resetToDefaults) {
                     Text("Reset")
                         .font(.caption)
@@ -136,7 +136,7 @@ struct ContentView: View {
                         .clipShape(Capsule())
                 }
             }
-            
+
             ScrollView {
                 VStack(spacing: 16) {
                     createDoubleSlider(
@@ -145,49 +145,49 @@ struct ContentView: View {
                         range: 0.1...1.0,
                         format: "%.2f"
                     )
-                    
+
                     createCGFloatSlider(
                         title: "Max Stretch Factor",
                         value: $maximumStretchFactor,
                         range: 0.1...2.0,
                         format: "%.2f"
                     )
-                    
+
                     createCGFloatSlider(
                         title: "Full Stretch Distance",
                         value: $fullStretchDistance,
                         range: 20...200,
                         format: "%.0f"
                     )
-                    
+
                     createCGFloatSlider(
                         title: "Stretch Amplification",
                         value: $stretchAmplificationFactor,
                         range: 1...10,
                         format: "%.1f"
                     )
-                    
+
                     createDoubleSlider(
                         title: "Drag Duration",
                         value: $dragAnimationDuration,
                         range: 0.1...1.0,
                         format: "%.2f"
                     )
-                    
+
                     createDoubleSlider(
                         title: "Release Duration",
                         value: $releaseAnimationDuration,
                         range: 0.1...2.0,
                         format: "%.2f"
                     )
-                    
+
                     createDoubleSlider(
                         title: "Release Bounce",
                         value: $releaseBounceFactor,
                         range: 0.0...1.0,
                         format: "%.2f"
                     )
-                    
+
                     createCGFloatSlider(
                         title: "Pressed Scale",
                         value: $pressedScaleFactor,
@@ -200,7 +200,7 @@ struct ContentView: View {
             .frame(maxHeight: 200)
         }
     }
-    
+
     /// Creates a labeled slider for Double parameter adjustment
     /// - Parameters:
     ///   - title: The label for the slider
@@ -225,12 +225,12 @@ struct ContentView: View {
                     .font(.caption.monospacedDigit())
                     .foregroundStyle(.primary)
             }
-            
+
             Slider(value: value, in: range)
                 .tint(.yellow)
         }
     }
-    
+
     /// Creates a labeled slider for CGFloat parameter adjustment
     /// - Parameters:
     ///   - title: The label for the slider
@@ -255,7 +255,7 @@ struct ContentView: View {
                     .font(.caption.monospacedDigit())
                     .foregroundStyle(.primary)
             }
-            
+
             Slider(value: value, in: range)
                 .tint(.yellow)
         }
@@ -268,4 +268,4 @@ struct ContentView: View {
     ContentView()
 }
 
-#endif // os(iOS) 
+#endif // os(iOS)

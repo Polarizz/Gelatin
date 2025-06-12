@@ -10,7 +10,7 @@ Gelatin provides a customizable view modifier that adds an elastic, bouncy anima
 
 - 🎯 **Easy to use** - Just add `.gelatinEffect()` to any view
 - 🎨 **Highly customizable** - Fine-tune animation parameters to your needs
-- 📱 **Cross-platform** - Supports iOS, macOS, tvOS, and watchOS
+- 📱 **iOS & iPadOS** - Optimized for iOS and iPadOS devices
 - ⚡ **Performant** - Optimized animations using SwiftUI's animation system
 - 🔧 **Well-documented** - Comprehensive documentation and examples
 
@@ -89,12 +89,17 @@ Check out the `Examples/GelatinDemo` folder for a complete demo app with:
 - Reset functionality
 
 To run the demo:
-1. Open `Examples/GelatinDemo` in Xcode
-2. Build and run
+1. Open `Package.swift` in Xcode
+2. Wait for package resolution
+3. Select the "GelatinDemo" scheme from the scheme selector
+4. Choose an iOS simulator or device
+5. Build and run (⌘R)
+
+Alternatively, see `Examples/GelatinDemo/README.md` for detailed instructions on creating a standalone demo project.
 
 ## Requirements
 
-- iOS 16.0+ / macOS 13.0+ / tvOS 16.0+ / watchOS 9.0+
+- iOS 16.0+ / iPadOS 16.0+
 - Xcode 15.0+
 - Swift 5.9+
 

@@ -5,6 +5,7 @@
 //  A SwiftUI package for creating elastic, stretchy animation effects.
 //
 
+#if os(iOS)
 import SwiftUI
 
 // MARK: - Configuration
@@ -54,6 +55,7 @@ public struct GelatinConfiguration {
 /// - Smooth easing function for natural deformation
 /// - Bounce-back animation when drag ends
 /// - Visual feedback during interaction
+@available(iOS 16.0, *)
 public struct GelatinEffect: ViewModifier {
     // Configuration parameters
     let easingExponent: Double
@@ -203,6 +205,7 @@ public struct GelatinEffect: ViewModifier {
 
 // MARK: - View Extension
 
+@available(iOS 16.0, *)
 public extension View {
     /// Applies a gelatin effect to any SwiftUI view with default parameters
     /// - Returns: A view with the gelatin effect applied
@@ -242,4 +245,6 @@ public extension View {
             pressedScaleFactor: pressedScaleFactor
         ))
     }
-} 
+}
+
+#endif // os(iOS) 

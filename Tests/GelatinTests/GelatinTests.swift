@@ -5,6 +5,7 @@
 //  Tests for the Gelatin package.
 //
 
+#if os(iOS)
 import XCTest
 import SwiftUI
 @testable import Gelatin
@@ -45,4 +46,6 @@ final class GelatinTests: XCTestCase {
         )
         XCTAssertNotNil(effect)
     }
-} 
+}
+
+#endif // os(iOS) 

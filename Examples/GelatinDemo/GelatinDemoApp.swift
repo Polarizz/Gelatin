@@ -5,6 +5,7 @@
 //  The main app entry point for the Gelatin package demonstration.
 //
 
+#if os(iOS)
 import SwiftUI
 
 @main
@@ -14,4 +15,6 @@ struct GelatinDemoApp: App {
             ContentView()
         }
     }
-} 
+}
+
+#endif // os(iOS) 
