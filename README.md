@@ -72,7 +72,7 @@ Text("Custom Gelatin")
 
 | Parameter | Type | Default | Description |
 |-----------|------|---------|-------------|
-| `easingExponent` | `Double` | `0.333` | Controls the rate of deformation (lower = more gradual) |
+| `easingExponent` | `Double` | `0.333` | Controls the rate of deformation |
 | `maximumStretchFactor` | `CGFloat` | `0.9` | Maximum stretch amount (0.9 = 90% stretch) |
 | `fullStretchDistance` | `CGFloat` | `80` | Distance for full stretch effect in points |
 | `stretchAmplificationFactor` | `CGFloat` | `3` | Amplifies the stretch effect |
