@@ -1,6 +1,6 @@
 //
-//  Gelatin_DemoApp.swift
-//  Gelatin-Demo
+//  GelatinDemoApp.swift
+//  GelatinDemo
 //
 //  Created by Paul Wong on 6/12/25.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct Gelatin_DemoApp: App {
+struct GelatinDemoApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
