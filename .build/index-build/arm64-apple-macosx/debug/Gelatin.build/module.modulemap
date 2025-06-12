@@ -1,0 +1,4 @@
+module Gelatin {
+    header "/Users/paulwong/Downloads/Gelatin/.build/index-build/arm64-apple-macosx/debug/Gelatin.build/Gelatin-Swift.h"
+    requires objc
+}

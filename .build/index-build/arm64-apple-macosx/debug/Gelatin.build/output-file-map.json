@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/paulwong/Downloads/Gelatin/.build/index-build/arm64-apple-macosx/debug/Gelatin.build/master.swiftdeps"
+  },
+  "/Users/paulwong/Downloads/Gelatin/Sources/Gelatin/GelatinEffect.swift": {
+    "dependencies": "/Users/paulwong/Downloads/Gelatin/.build/index-build/arm64-apple-macosx/debug/Gelatin.build/GelatinEffect.d",
+    "object": "/Users/paulwong/Downloads/Gelatin/.build/index-build/arm64-apple-macosx/debug/Gelatin.build/GelatinEffect.swift.o",
+    "swiftmodule": "/Users/paulwong/Downloads/Gelatin/.build/index-build/arm64-apple-macosx/debug/Gelatin.build/GelatinEffect~partial.swiftmodule",
+    "swift-dependencies": "/Users/paulwong/Downloads/Gelatin/.build/index-build/arm64-apple-macosx/debug/Gelatin.build/GelatinEffect.swiftdeps"
+  }
+}

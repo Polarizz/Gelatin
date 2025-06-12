@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/paulwong/Downloads/Gelatin/.build/index-build/arm64-apple-macosx/debug/GelatinTests.build/master.swiftdeps"
+  },
+  "/Users/paulwong/Downloads/Gelatin/Tests/GelatinTests/GelatinTests.swift": {
+    "dependencies": "/Users/paulwong/Downloads/Gelatin/.build/index-build/arm64-apple-macosx/debug/GelatinTests.build/GelatinTests.d",
+    "object": "/Users/paulwong/Downloads/Gelatin/.build/index-build/arm64-apple-macosx/debug/GelatinTests.build/GelatinTests.swift.o",
+    "swiftmodule": "/Users/paulwong/Downloads/Gelatin/.build/index-build/arm64-apple-macosx/debug/GelatinTests.build/GelatinTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/paulwong/Downloads/Gelatin/.build/index-build/arm64-apple-macosx/debug/GelatinTests.build/GelatinTests.swiftdeps"
+  }
+}

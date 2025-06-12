@@ -1,0 +1,4 @@
+module GelatinPackageTests {
+    header "/Users/paulwong/Downloads/Gelatin/.build/index-build/arm64-apple-macosx/debug/GelatinPackageTests.build/GelatinPackageTests-Swift.h"
+    requires objc
+}

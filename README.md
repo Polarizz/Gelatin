@@ -1,18 +1,16 @@
 # Gelatin
 
-A SwiftUI package for creating elastic, stretchy animation effects that make views behave like gelatin when dragged.
+<p>
+    <img src="https://img.shields.io/badge/iOS-15.0+-FF4D00.svg" />
+    <img src="https://img.shields.io/badge/iPadOS-15.0+-FF4D00.svg" />
+    <img src="https://img.shields.io/badge/-SwiftUI-FF9F00.svg" />
+</p>
+
+A SwiftUI package for creating elastic, stretchy animation effects that make views behave like Liquid Glass when dragged.
 
 ## Overview
 
-Gelatin provides a customizable view modifier that adds an elastic, bouncy animation effect to any SwiftUI view. When users drag a view, it stretches and deforms naturally like gelatin, then bounces back to its original position when released.
-
-## Features
-
-- 🎯 **Easy to use** - Just add `.gelatinEffect()` to any view
-- 🎨 **Highly customizable** - Fine-tune animation parameters to your needs
-- 📱 **iOS & iPadOS** - Optimized for iOS and iPadOS devices
-- ⚡ **Performant** - Optimized animations using SwiftUI's animation system
-- 🔧 **Well-documented** - Comprehensive documentation and examples
+Inspired by iOS 26, Gelatin provides a customizable view modifier that adds an elastic, bouncy animation effect to any SwiftUI view. When users drag a view, it stretches and deforms naturally like Liquid Glass, then bounces back to its original position when released.
 
 ## Installation
 
@@ -21,14 +19,14 @@ Gelatin provides a customizable view modifier that adds an elastic, bouncy anima
 Add Gelatin to your project through Xcode:
 
 1. File → Add Package Dependencies
-2. Enter: `https://github.com/yourusername/Gelatin`
+2. Enter: `https://github.com/Polarizz/Gelatin`
 3. Click "Add Package"
 
 Or add it to your `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/yourusername/Gelatin", from: "1.0.0")
+    .package(url: "https://github.com/Polarizz/Gelatin", from: "1.0.0")
 ]
 ```
 
@@ -83,29 +81,16 @@ Text("Custom Gelatin")
 
 ## Demo App
 
-Check out the `Examples/GelatinDemo` folder for a complete demo app with:
+Check out the `Gelatin-Demo/Gelatin-Demo.xcodeproj` folder for a complete demo app with:
 - Interactive parameter adjustment
 - Real-time preview
 - Reset functionality
-
-To run the demo:
-1. Open `Package.swift` in Xcode
-2. Wait for package resolution
-3. Select the "GelatinDemo" scheme from the scheme selector
-4. Choose an iOS simulator or device
-5. Build and run (⌘R)
-
-Alternatively, see `Examples/GelatinDemo/README.md` for detailed instructions on creating a standalone demo project.
 
 ## Requirements
 
 - iOS 16.0+ / iPadOS 16.0+
 - Xcode 15.0+
 - Swift 5.9+
-
-## License
-
-MIT License - See LICENSE file for details
 
 ## Contributing
 
