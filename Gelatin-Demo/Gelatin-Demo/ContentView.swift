@@ -3,6 +3,7 @@
 //  GelatinDemo
 //
 //  A demo app showcasing the Gelatin package's elastic animation effects.
+//  Created by Paul Wong on 6/12/25.
 //
 
 #if os(iOS)
