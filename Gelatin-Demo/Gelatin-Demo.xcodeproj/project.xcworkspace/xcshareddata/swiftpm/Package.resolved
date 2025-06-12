@@ -1,0 +1,15 @@
+{
+  "originHash" : "b3a13fd55d05ddf41f7ddf532b7bac2b1f913e0db9c49f897894c766968540f7",
+  "pins" : [
+    {
+      "identity" : "gelatin",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Polarizz/Gelatin.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "b0b3ff4a12e6f8ce411bb12b227a139d5b2ccfaa"
+      }
+    }
+  ],
+  "version" : 3
+}
