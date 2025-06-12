@@ -1,4 +1,4 @@
-![gelatin](https://github.com/user-attachments/assets/545a750d-a432-4e51-8a57-31b12b6cb75a)
+![gelatin](https://github.com/user-attachments/assets/d117de2f-57b5-46c0-9a27-64c77d795d02)
 # Gelatin
 
 <p>
