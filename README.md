@@ -1,8 +1,8 @@
 # Gelatin
 
 <p>
-    <img src="https://img.shields.io/badge/iOS-15.0+-FF4D00.svg" />
-    <img src="https://img.shields.io/badge/iPadOS-15.0+-FF4D00.svg" />
+    <img src="https://img.shields.io/badge/iOS-16.0+-FF4D00.svg" />
+    <img src="https://img.shields.io/badge/iPadOS-16.0+-FF4D00.svg" />
     <img src="https://img.shields.io/badge/-SwiftUI-FF9F00.svg" />
 </p>
 
@@ -11,6 +11,8 @@ A SwiftUI package for creating elastic, stretchy animation effects that make vie
 ## Overview
 
 Inspired by iOS 26, Gelatin provides a customizable view modifier that adds an elastic, bouncy animation effect to any SwiftUI view. When users drag a view, it stretches and deforms naturally like Liquid Glass, then bounces back to its original position when released.
+
+https://github.com/user-attachments/assets/83294551-c801-47e7-b3e3-fbd16e1c1a43
 
 ## Installation
 
